@@ -1,8 +1,13 @@
 // src/components/Home.js
 import React from "react";
+import ReactDOM from "react-dom";
 
 function Home() {
-  return <h1>Home!</h1>;
+  return (
+    <div>
+      <h1>Home!</h1>
+    </div>
+  );
 }
 
-export default Home;
+ReactDOM.render(<Home />, document.getElementById("root"));
